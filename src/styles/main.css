@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../images/wall.png");
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 90px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  border-bottom: 5px solid gold;
+}
+
+.panel {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+
+  background: -webkit-radial-gradient(#3c3b52, #252233);
+  background: radial-gradient(#3c3b52, #252233);
+
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.enemy {
+  background-image: url("../images/ralph.png");
+  background-size: 22vh;
+  border: 5px solid #fd000040;
+  background-position-x: center;
+  border: 5px solid red;
+}
+
+.menu-lives {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-time h2:last-child, 
+.menu-score h2:last-child {
+  margin-top: 0.7rem;
+}
+
+.retry {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+.retry-button {
+  padding: 0.7rem;
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: aliceblue;
+  font-size: 2rem;
+  border-bottom: 5px solid gold;
+}
+
+.hide {
+  display: none;
+}
